@@ -1,0 +1,2 @@
+# Subject-independent-EEG-emotion-recognition-using-a-bipartite-graph-transformer-architecture
+Subject-independent emotion recognition from EEG signals, using a Domain-Adversarial Neural Network (DANN) enhanced with bipartite (BP) graphs and transformers at both the spatial and temporal level. This repository contains the implementation accompanying our paper published in IEEE Journal of Biomedical and Health Informatics (2025).
