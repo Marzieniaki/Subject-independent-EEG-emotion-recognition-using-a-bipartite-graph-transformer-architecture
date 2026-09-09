@@ -97,7 +97,7 @@ training_dann.py
 
 ---
 
-## Model architecture (`dann.py`)
+## Model architecture [(`dann.py`)](https://github.com/Marzieniaki/Subject-independent-EEG-emotion-recognition-using-a-bipartite-graph-transformer-code/blob/main/dann.py)
 
 ### Input
 
@@ -161,7 +161,7 @@ Three feature-extractor classes share the same building blocks:
 
 ---
 
-## Data loading and training loop (`utils_dann.py`)
+## Data loading and training loop [(`utils_dann.py`)](https://github.com/Marzieniaki/Subject-independent-EEG-emotion-recognition-using-a-bipartite-graph-transformer-code/blob/main/utils_dann.py)
 
 ### `load_data(file_path, subject, batch_size)`
 
@@ -194,7 +194,7 @@ Runs the held-out subject's data through the model with `alpha=0` (no domain-adv
 
 ---
 
-## Experiment orchestration (`training_dann.py`)
+## Experiment orchestration [(`training_dann.py`)](https://github.com/Marzieniaki/Subject-independent-EEG-emotion-recognition-using-a-bipartite-graph-transformer-code/blob/main/training_dann.py)
 
 Runs a full LOSOCV loop: for each of the 15 SEED subjects, a fresh model is initialized (variant selected via `modelToRun`), trained for `num_epochs`, and evaluated with that subject held out as target. Per-subject results are appended to `all_participants_results.txt`; per-subject model weights and target-domain feature embeddings are saved to `models_per_subject/` and `model_features/` respectively.
 
